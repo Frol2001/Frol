@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #20202D;
+    margin: 0;
+    color: #fff;
+}
+
+
+/* container */
+.container{
+    max-width: 945px;
+    margin: auto ;
+}
+
+
+/* social_link */
+
+.social_link{
+    margin-left: 20px;
+}
+
+.social_link:first-child{
+    margin-left: 0;
+}
+
+/* section */
+
+.section{
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+
+
+.section_title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 84px;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFBB01;
+}
+
+/* hero */
+
+.hero{
+    padding-top: 50px;
+    padding-bottom: 155px;
+    background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%) cover;
+}
+
+.hero_hader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+
+.hero_subtitle{
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFBB01;
+    margin-bottom: 14px;
+}
+
+.hero_title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.hero_description{
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 420px;
+    margin-bottom: 38px;
+}
+
+
+.hero_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_avatar{
+    width: 389px;
+    height: 389px;
+    background: #fff;
+    border-radius:50%;
+    background-image: url("https://sun9-34.userapi.com/impf/c629115/v629115868/37648/6an-S_Tduvs.jpg?size=628x340&quality=96&proxy=1&sign=abb2f8923a1a46a864bfd46974d3e07b");
+    background-repeat: no-repeat;
+    background-position: center top 12px ;
+    border: 13px solid #fff;
+    
+}
+
+/* Button */
+
+.button{
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px 5px 10px 10px;
+    padding: 24px 42px;
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
+/* features */
+
+.features{
+    background-color: #000000;
+}
+
+.features_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features_item{
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+
+.features_img{
+    display: block;
+    margin-bottom: 22px;
+}
+
+
+.features_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.features_text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+
+/* projekt */
+
+.projekts{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projekts-slide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.projekt-text{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projekt-title{
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+
+.projekt-time, .projekt-cost{
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+
+.projekt-time, .projekt-cost, .projekt-feedback{
+    display: flex;
+    align-items: flex-start;
+}
+
+.projekt-subtitle{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+
+.projekt-paragraph{
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.projekt-icon{
+    margin-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.projekt-image{
+    max-width: 350px;
+}
